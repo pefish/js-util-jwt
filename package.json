@@ -1,7 +1,7 @@
 {
   "name": "@pefish/js-util-jwt",
-  "version": "0.0.1",
-  "types": "./types/*.d.ts",
+  "version": "0.0.2",
+  "types": "./types/jwt.d.ts",
   "main": "./lib/jwt.js",
   "scripts": {
     "test": "mocha --require ts-node/register src/**/*.test.ts",
@@ -10,8 +10,8 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@pefish/js-error": "^0.0.5",
-    "@pefish/js-node-assist": "^0.6.0",
+    "@pefish/js-error": "^0.1.1",
+    "@pefish/js-node-assist": "^0.6.6",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {

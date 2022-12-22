@@ -12,7 +12,7 @@
   "dependencies": {
     "@pefish/js-error": "^0.1.1",
     "@pefish/js-node-assist": "^0.6.6",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
